@@ -1,11 +1,12 @@
 <head>
+    <!-- 主页头部的样式设计 -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/{{ site.favicon }}">
 
-    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - 纯洁的微笑博客 {% elsif page.title %} {{ page.title | escape }} - 纯洁的微笑博客 {% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - sunshine girl {% elsif page.title %} {{ page.title | escape }} - 纯洁的微笑博客 {% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="description"
           content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
@@ -27,14 +28,14 @@
     <link rel="stylesheet" href="http://favorites.ren/assets/css/common.css">
 
     <!-- CSS set in page -->
-    {% for css in page.css %}
-    <link rel="stylesheet" href="http://favorites.ren/assets/css/{{css}}">
+    < {% for css in page.css %}>
+    < link rel="stylesheet" href="http://favorites.ren/assets/css/{{css}}" >
     {% endfor %}
 
     <!-- CSS set in layout -->
-    {% for css in layout.css %}
-    <link rel="stylesheet" href="http://favorites.ren/assets/css/{{css}}">
-    {% endfor %}
+     {% for css in layout.css %}
+     <link rel="stylesheet" href="http://favorites.ren/assets/css/{{css}}">
+     {% endfor %}
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
