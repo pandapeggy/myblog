@@ -15,7 +15,7 @@ keywords: Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构
 encoding: "utf-8"
 favicon: favicon.ico
 
-repository: pandapeggy/pandapeggy.github.io
+repository: pandapeggy/myblog.github.io
 github_url: https://github.com/pandapeggy
 url: http://www.contemplation.top
 enforce_ssl: contemplation.top
