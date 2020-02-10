@@ -1,3 +1,4 @@
+<!-- 主页右侧部分列表显示 -->
 <div class="card text-center">
     <ul class="list-inline" style="margin-left: 0;">
      <li>
@@ -9,26 +10,26 @@
         </a>
       </li>
       <li>
-        <a target="_blank" href="https://www.zhihu.com/people/ityouknow">
+        <a target="_blank" href="https://mp.csdn.net">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa  fa-stack-1x fa-inverse">知</i>
+            <i class="fa  fa-stack-1x fa-inverse">博</i>
           </span>
         </a>
       </li>
-       <li>
+       <!--<li>
         <a target="_blank" href="https://weibo.com/ityouknow">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-      </li>
+      </li>-->
   </ul>https://github.com/pandapeggy
 </div>
 
 <h3 class="sidebar-title">精选文章</h3>
-
+<!-- 精选文章部分显示 -->
 {% for article in site.classes  %}
 <div class="card text-center">
     <div class="thumbnail">
@@ -61,6 +62,7 @@
                 </h3>
             </div>
         </div>
+        <!-- 显示个人github的项目，创建时间，被引用时间等信息 -->
         <div class="caption">
             <div class="card-description">
                 <p class="card-text">{{ repo.description }}</p>

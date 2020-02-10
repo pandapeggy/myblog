@@ -6,13 +6,13 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/{{ site.favicon }}">
 
-    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - sunshine girl {% elsif page.title %} {{ page.title | escape }} - 纯洁的微笑博客 {% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - sunshine girl {% elsif page.title %} {{ page.title | escape }} - 个人博客 {% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="description"
           content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ /feed.xml | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Third-Party CSS -->
     <link rel="stylesheet" href="http://favorites.ren/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="http://favorites.ren/assets/css/common.css">
 
     <!-- CSS set in page -->
-    < {% for css in page.css %}>
+    {% for css in page.css %}
     < link rel="stylesheet" href="http://favorites.ren/assets/css/{{css}}" >
     {% endfor %}
 

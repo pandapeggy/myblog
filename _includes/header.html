@@ -3,6 +3,7 @@
         <div class="container">
             <div class="topbar-menu">
                 {% for menu in site.menus %}
+                <!-- 主页部分的上端右上角小字体部分的导航栏目 -->
                 <div class="item">
                     <a href="{{ menu.href }}"
                        target="{{ menu.target | default: _self }}"
@@ -15,10 +16,12 @@
         </div>
     </div>
     <div class="container">
+        <!-- 主页部分的上端左上角显示 -->
         <a id="site-header-brand" href="/" title="{{ site.name }}">
             <span class="octicon octicon-smiley"></span>
             {{ site.name }}
         </a>
+        <!-- 主页部分的上端右上角导航栏目 -->
         <nav class="site-header-nav" role="navigation">
             {% for nav in site.navs %}
             <div class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center">

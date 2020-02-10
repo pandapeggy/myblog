@@ -1,20 +1,10 @@
 <footer class="container">
     <div class="site-footer">
-       <!--  <div class="site-footer-icons">
-            <a target="_blank" href="https://www.zhihu.com/people/ityouknow">
-               知乎
-            </a>
-            <a target="_blank" href="http://weibo.com/ityouknow">
-               微博
-            </a>
-            <a target="_blank" href="https://github.com/ityouknow">
-                GitHub
-            </a>
-        </div> -->
+            <!-- 主页面上底部显示 -->
           <div class="card text-center">
             <ul class="list-inline" style="margin-left: 0;">
                <li>
-                <a target="_blank" href="https://github.com/ityouknow">
+                <a target="_blank" href="https://github.com/pandapeggy">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -22,31 +12,36 @@
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://www.zhihu.com/people/ityouknow">
+                <a target="_blank" href="https://mp.csdn.net">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa  fa-stack-1x fa-inverse">知</i>
+                    <i class="fa  fa-stack-1x fa-inverse">博</i>
                   </span>
                 </a>
               </li>
-                  <li>
+              <!--
+              <li>
                 <a target="_blank" href="https://weibo.com/ityouknow">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
-              </li>
+              </li>-->
           </ul>
         </div>
+        <!-- 底端的链接 -->
         <div class="site-footer-links mobile-hidden">
             {% for nav in site.labels %}
             <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
             {% endfor %}
         </div>
+        <!--
         <div class="site-footer-icons">
                <a href="http://beian.miit.gov.cn" >京ICP备15067287号</a>
         </div>
+        -->
+        <!-- 返回顶端设置按钮 -->
         <div class="scrolltop">
             <a href="javascript:window.scrollTo(0,0)" >TOP</a>
         </div>
@@ -64,7 +59,8 @@
     {% endfor %}
 
      <!-- Cnzz Analytics -->
-       <div style="display:none">
+       <!-- <div style="display:none"> -->
+       <div >
          <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260945749'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260945749' type='text/javascript'%3E%3C/script%3E"));</script>
        </div>
      <!-- Cnzz Analytics -->
