@@ -246,14 +246,14 @@ gitment:
     owner: pandapeggy
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: aac6d6aa1b6690b5b9a8
+        client_secret: c1a02a1af46128d0240aaef2d89ed135d1897429
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: pandapeggy
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    clientID: aac6d6aa1b6690b5b9a8
+    clientSecret: c1a02a1af46128d0240aaef2d89ed135d1897429
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
 
