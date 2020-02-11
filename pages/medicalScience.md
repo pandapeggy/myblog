@@ -1,11 +1,11 @@
 ---
 layout: page
-title: FastDFS系列文章
-titlebar: FastDFS
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; FastDFS系列文章
-menu: fastdfs
+title: 医学科普文
+titlebar: medicalScience
+subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp; 多学习知识，为健康保驾护航
+menu: medicalScience
 css: ['blog-page.css']
-permalink: /fastdfs
+permalink: /medicalScience
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /fastdfs
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='FastDFS' or post.keywords contains 'FastDFS' %}
+                {% if post.category=='arch' or post.keywords contains '架构' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

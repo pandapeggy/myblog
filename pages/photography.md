@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Docker 系列文章
-titlebar: docker
-subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; Docker 系列教程
-menu: docker
+title: 摄影
+titlebar: photography
+subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; 练就一双发现美的眼睛
+menu: photography
 css: ['blog-page.css']
-permalink: /docker
+permalink: /photography
 keywords: Docker,DockerFile,Swarm,docker-machine,MCompose,Docker 学习,服务编排
 ---
 

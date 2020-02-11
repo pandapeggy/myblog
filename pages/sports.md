@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 知识星球
-titlebar: money
-subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp;探索创业、黑客增长、营销策略、创意分享、商业案例等。>&nbsp;&nbsp;>&nbsp;&nbsp;<a href ="https://t.zsxq.com/iYZ3zrR" target="_blank" ><font color="#EB9439">点我直达</font></a>
-menu: money
+title: 运动
+titlebar: sports
+subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 一只活跃的猿>&nbsp;&nbsp;>&nbsp;&nbsp;<a href ="http://www.justdojava.com/" target="_blank" ><font color="#EB9439">点我直达</font></a>
+menu: sports
 css: ['blog-page.css']
-permalink: /money
+permalink: /sports
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /money
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='money' or post.keywords contains 'money' %}
+                {% if post.category=='java' or post.category=='jvm' or post.keywords contains 'java' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -44,4 +44,3 @@ permalink: /money
 
     });
 </script>
-

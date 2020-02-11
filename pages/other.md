@@ -1,11 +1,11 @@
 ---
 layout: page
-title: MongoDB 系列文章
-titlebar: MongoDB
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; MongoDB 系列教程
-menu: mongodb
+title: 其它
+titlebar: other
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 其它问题
+menu: other
 css: ['blog-page.css']
-permalink: /mongodb
+permalink: /other
 keywords: MongoDB,MongoDB 集群,部署,搭建,MongoDB 教程
 ---
 

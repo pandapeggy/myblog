@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 架构师的自我修养
-titlebar: arch
-subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp; 其实我是一名程序员。
-menu: arch
+title: 周末下厨
+titlebar: delicious
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 家庭简餐犒劳自己
+menu: delicious
 css: ['blog-page.css']
-permalink: /arch
+permalink: /delicious
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /arch
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='arch' or post.keywords contains '架构' %}
+                {% if post.category=='cartoon' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

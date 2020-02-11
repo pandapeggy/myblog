@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 不会笑青年
-titlebar: cartoon
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 用漫画讲故事
-menu: cartoon
+title: shell脚本学习
+titlebar: shell
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; shell脚本积累
+menu: shell
 css: ['blog-page.css']
-permalink: /cartoon
+permalink: /shell
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /cartoon
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='cartoon' %}
+                {% if post.category=='FastDFS' or post.keywords contains 'FastDFS' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

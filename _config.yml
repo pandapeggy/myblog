@@ -60,22 +60,22 @@ menus:
     target: _self
 
   -
-    href: /spring-cloud.html
+    href: /medicalScience.html
     label: 科普
     target: _self
 
   -
-    href: /money.html
+    href: /sports.html
     label: 运动
     target: _self
 
   -
-    href: /life.html
+    href: /photography.html
     label: 摄影
     target: _self
 
   -
-    href: /arch.html
+    href: /delicious.html
     label: 下厨房
     target: _self
 
@@ -96,18 +96,22 @@ navs:
     href: /
     label: Home
 
-  - href: /spring-boot.html
+  - href: /it.html
     label: 技术
     target: _self
     subnav:
 
-      - subHref: /spring-boot.html
-        subLabel: Spring Boot
+      - subHref: /shell.html
+        subLabel: shell
 
-      - subHref: /spring-cloud.html
-        subLabel: Spring Cloud
+      - subHref: /python.html
+        subLabel: python
+
+      - subHref: /other.html
+          subLabel: other
+
   -
-    href: /cartoon.html
+    href: /medicalScience.html
     label: 医学科普文
     target: _self
 
@@ -128,21 +132,21 @@ navs:
 
   -
 
-    href: /python.html
+    href: /sports.html
     label: 运动
     subnav:
 
       -
-        subHref: /python.html
+        subHref: /run.html
         subLabel: 跑步
 
       -
-        subHref: http://www.justdopython.com
-        subLabel: keep
+        subHref: /keep.html
+        subLabel: 其他
         target: _blank
 
   -
-    href: /archives.html
+    href: /delicious.html
     label: 下厨房
     target: _self
 
@@ -156,42 +160,17 @@ labels:
     label: Pay
     target: _self
 
-  -
-    href: /fastdfs.html
-    label: FastDFS
-    target: _blank
-
-  -
-    href: /mongodb.html
-    label: MongoDB
-    target: _blank
-
-  -
-    href: /docker.html
-    label: Docker
-    target: _blank
-
-  -
-    href: /open-source.html
-    label: Code
-    target: _blank
-
-  -
-    href: /gitchat.html
-    label: Chat
-    target: _blank
-
 
 # selected articles
 classes:
 
   -
-    href: /cartoon.html
+    href: /sports.html
     name: 爱运动
     describe: 运动很简单，坚持靠毅力
 
   -
-    href: /life.html
+    href: /delicious.html
     name: 下厨房
     describe: 上得了厅堂，下得了厨房
 

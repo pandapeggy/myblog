@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 互联网那些事
-titlebar: it
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 记录日常工作总结
-menu: it
+title: 其它类型运动
+titlebar: keep
+subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp;瑜伽/游泳/球类
+menu: keep
 css: ['blog-page.css']
-permalink: /it
+permalink: /keep
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /it
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='it' %}
+                {% if post.category=='money' or post.keywords contains 'money' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -44,3 +44,4 @@ permalink: /it
 
     });
 </script>
+
