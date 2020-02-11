@@ -108,7 +108,7 @@ navs:
         subLabel: python
 
       - subHref: /other.html
-          subLabel: other
+        subLabel: other
 
   -
     href: /medicalScience.html
