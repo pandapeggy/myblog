@@ -8,8 +8,8 @@
 # Site settings
 title:  sunshine girl
 subtitle: 分享技术，品味人生
-name: 阳光女孩
-email: 就是不告诉你！
+name: 半只猿的世界你不懂
+email: 就是不告诉你！有点皮！
 description: 本网站分享博主的工作和生活
 keywords: Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
 encoding: "utf-8"
@@ -54,31 +54,29 @@ paginate_path: 'page:num'
 
 # Navigation. top menu list
 menus:
-
-
-  -
-    href: /spring-cloud.html
-    label: SCloud
-    target: _self
-
   -
     href: /it.html
     label: 技术
     target: _self
 
   -
+    href: /spring-cloud.html
+    label: 科普
+    target: _self
+
+  -
     href: /money.html
-    label: 摄影
+    label: 运动
     target: _self
 
   -
     href: /life.html
-    label: 跑步
+    label: 摄影
     target: _self
 
   -
     href: /arch.html
-    label: 架构
+    label: 下厨房
     target: _self
 
   -
@@ -98,28 +96,24 @@ navs:
     href: /
     label: Home
 
-  -
-    href: /cartoon.html
-    label: 摄影
-    target: _self
-
-  -
-    href: /spring-boot.html
-    label: Spring Boot
+  - href: /spring-boot.html
+    label: 技术
     target: _self
     subnav:
 
-      -
-        subHref: /spring-boot.html
+      - subHref: /spring-boot.html
         subLabel: Spring Boot
 
-      -
-        subHref: /spring-cloud.html
+      - subHref: /spring-cloud.html
         subLabel: Spring Cloud
+  -
+    href: /cartoon.html
+    label: 医学科普文
+    target: _self
 
   -
     href: http://www.justdojava.com
-    label: Java
+    label: 技术类链接
     target: _blank
     subnav:
 
@@ -135,21 +129,21 @@ navs:
   -
 
     href: /python.html
-    label: Python
+    label: 运动
     subnav:
 
       -
         subHref: /python.html
-        subLabel: Python 教程
+        subLabel: 跑步
 
       -
         subHref: http://www.justdopython.com
-        subLabel: Python 技术
+        subLabel: keep
         target: _blank
 
   -
     href: /archives.html
-    label: Archives
+    label: 下厨房
     target: _self
 
 
@@ -193,13 +187,13 @@ classes:
 
   -
     href: /cartoon.html
-    name: 不会笑青年
-    describe: 内心沉稳 ，放荡不羁。
+    name: 爱运动
+    describe: 运动很简单，坚持靠毅力
 
   -
     href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+    name: 下厨房
+    describe: 上得了厅堂，下得了厨房
 
   -
     href: /it.html
