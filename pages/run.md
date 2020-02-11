@@ -1,11 +1,11 @@
 ---
 layout: page
-title: GitChat 专栏推荐课程
-titlebar: gitchat
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 程序员的分享天地
-menu: gitchat
+title: 跑步分享
+titlebar: run
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 马拉松爱好者的世界
+menu: run
 css: ['blog-page.css']
-permalink: /gitchat
+permalink: /run
 ---
 
 <div class="row">

@@ -153,12 +153,12 @@ navs:
 
 
 # labels. my blog key words
-labels:
+#labels:
 
-  -
-    href: /payment.html
-    label: Pay
-    target: _self
+#  -
+#    href: /payment.html
+#    label: Pay
+#    target: _self
 
 
 # selected articles

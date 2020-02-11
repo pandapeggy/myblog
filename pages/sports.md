@@ -2,7 +2,7 @@
 layout: page
 title: 运动
 titlebar: sports
-subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 一只活跃的猿>&nbsp;&nbsp;>&nbsp;&nbsp;<a href ="http://www.justdojava.com/" target="_blank" ><font color="#EB9439">点我直达</font></a>
+subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 一只活跃的猿
 menu: sports
 css: ['blog-page.css']
 permalink: /sports
