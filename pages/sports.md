@@ -2,7 +2,7 @@
 layout: page
 title: 运动
 titlebar: sports
-subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 一只活跃的猿
+subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 一只身姿矫健的猿
 menu: sports
 css: ['blog-page.css']
 permalink: /sports
