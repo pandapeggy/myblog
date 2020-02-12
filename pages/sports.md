@@ -14,7 +14,7 @@ permalink: /sports
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='java' or post.category=='jvm' or post.keywords contains 'java' %}
+                {% if post.category=='sports' or post.category=='sports' or post.keywords contains 'sports' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

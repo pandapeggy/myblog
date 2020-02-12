@@ -14,7 +14,7 @@ permalink: /run
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='gitchat' %}
+                {% if post.category=='run' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
