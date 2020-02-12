@@ -150,6 +150,10 @@ navs:
     label: 下厨房
     target: _self
 
+  -
+    href: /aboutBlog.html
+    label: 博客
+    target: _self
 
 
 # labels. my blog key words
