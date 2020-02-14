@@ -13,6 +13,9 @@ excerpt: 绝知此事要躬行
 选购独立域名，个人选择了[腾讯云](https://cloud.tencent.com/act/domainsales?from=11394)，购买一个喜欢的域名就可以了，然后进行配置。具体如何配置自行搜索。
 ## 3.获取代码，准备环境
 根据文档<https://www.cnblogs.com/ityouknow/p/9680137.html>进行操作，获取代码到自己的github上。
+**注意⚠️**
+* 项目名称必须要以.github.io结尾
+* github上设置 GitHub Pages，这样提交代码才会被部署到环境中。
 ## 4.修改代码，部署程序
 这个就要靠自己的代码能力了，把代码修改，让博客成为自己想设计的模样
 ## 5.下载jupyter工具，学习markdown编写规则
