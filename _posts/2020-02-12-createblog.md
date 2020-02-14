@@ -19,3 +19,18 @@ excerpt: 绝知此事要躬行
 ## 4.修改代码，部署程序
 这个就要靠自己的代码能力了，把代码修改，让博客成为自己想设计的模样
 ## 5.下载jupyter工具，学习markdown编写规则
+1. 安装：
+    * 升级pip到最新版:pip install --upgrade pip
+    * 安装Jupyter Notebooks:pip install jupyter
+2. 修改目录空间：
+    * 先在本地创建一个文件夹，用来存放jupyter的工作目录，如：/Users/jupyter
+    * 输入命令行：jupyter notebook --generate-config
+    * 修改#c.NotebookApp.notebook_dir = ''此条配置，将#去掉，该目录地址填入为上述创建的jupyter工作目录：c.NotebookApp.notebook_dir = '/Users/jupyter'
+3. 启动jupyter：
+    * jupyter notebook
+4. 设置主题颜色
+    1. pip install --upgrade jupyterthemes
+    2. jt -l
+    3. jt -t gruvboxl -N -T（设置主题并且显示toolbar）
+5. 编写文件，保存为md格式。把下载的文件放到这个项目的_posts目录中，推送到github上就可以成功发表文章了。
+
